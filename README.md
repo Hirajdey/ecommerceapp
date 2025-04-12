@@ -281,3 +281,15 @@ outDir: Specifies the output directory for compiled JavaScript files, keeping th
 sourceMap, declaration, and declarationMap: Generate source maps and declaration files to aid in debugging and provide type definitions for consumers of your code.​
 
 skipLibCheck: Skips type checking of declaration files, which can speed up the build process without compromising the type safety of your application code.
+
+## Configure REDUX
+
+#### configure the latest Redux with Redux Toolkit & React-Redux
+
+##### STEP - 1 :
+
+yarn add @reduxjs/toolkit react-redux
+
+##### STEP - 2 :
+
+Create Your Redux Store - inside a store/ folder, create a store.js file :
